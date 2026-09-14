@@ -1,6 +1,6 @@
 # Library DBMS
 
-A simple PHP-based library management system that uses a MySQL database to handle user accounts, book searching, reservations, and reservation tracking.
+A simple PHP-based library management system that uses a MySQL database to handle user accounts, book searching, reservations, and reservation tracking assignment for Web Development 2 
 
 ## Overview
 
