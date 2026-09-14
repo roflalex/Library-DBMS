@@ -1,0 +1,112 @@
+.top-bar
+{
+    background-color: #fdfbd4;
+    color:black;
+    font-size: 36px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+/* below doesnt work*/
+.top-bar a
+{
+    font-size: 12px;
+}
+#title
+{
+    padding:50px;
+    font-family: "Copperplate",fantasy;
+}
+
+.actions
+{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.top-bar .actions> button
+{
+    margin:0;
+    display:inline-block;
+    width:auto;
+}
+#registerB,
+#loginB
+{
+    padding:12px;
+    font-size:24px;
+    cursor:pointer;
+    border:black;
+    display:inline-block;   
+    background-color:green;
+}
+.rForm,
+.lForm
+{
+    flex:1;
+    max-width: 1000px;
+    width:40%;
+    margin: 4vh auto;
+    padding: 3vh 2vw;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items:center
+}
+.form-grid 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem; 
+    width: 100%;
+    padding: 1rem; 
+}
+.input-wrapper 
+{
+    margin-bottom: 3vh;  
+}
+.input-wrapper label 
+{
+    display: block;
+    margin-bottom: 1vh;
+    color: #333;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.input-wrapper input 
+{
+    width: 100%;
+    padding: 1.5vh 1vw;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s;
+    margin-top: 1vh; 
+}
+.regButton,
+.logButton
+{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1.5vh 2vw;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s;
+}
+.regButton:hover,
+.logButton:hover
+{
+    background-color: darkgreen;
+}
+small
+{
+    display:block;
+    margin-top:0.5vh;
+    color:#666;
+    font-size:0.9rem;
+}
